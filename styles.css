@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	display: flex;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.backgroundP{
+background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+height: 100%;
+background-size: cover;
+width: 30vw;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+justify-content: center;
+flex-grow: 1;
+
+}
+
+.backgroundP img{
+    height: 12%;
+    padding-top: 24vh;
+    position: relative;
+}
+.backgroundP p{
+	padding-top: 23vh;
+	font-size: 5rem;
+	font-family: "Norse";
+
+}
+.shadow{
+    width: 30vw;
+    height: 15%;
+    top:22vh ;
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+}
+
+.sideR{
+	width: 70vw;
+	height: 100%;
+	font-family: "Norse";
+}
+
+.desc{
+	background-color: ghostwhite;
+	height: calc(22vh + 15%);
+	box-sizing:border-box;
+	padding: 22vh 0 2vw 2vw;
+	font-size: 2rem;
+
+}
+
+form{
+	height: calc(100%-calc(22vh + 15%));
+	background-color: ghostwhite;
+}
+
+
+
+fieldset{
+	width: 60%;
+	display: flex;
+justify-content: space-between;
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	
+}
+
+.sideR .bodyF{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5% 0 5% 10%;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15); 
+	background-color: white;
+	height: 20vh;
+}
+
+.log{
+	width: 70vw;
+	padding-left: 10%;
+	padding-top: 5%;
+	box-sizing:border-box;
+	height: 31vh;
+}
+
+button{
+	color: white;
+	text-decoration: none;
+	outline: none;
+	background-color: #596D48;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.5rem;
+}
+.log p{
+	margin-top: 1vh;
+}
+.log a{
+	color: #596D48;
+}
+form input{
+	border: 1px solid black;
+}
+form input:focus{
+border: 1px solid blue;}
+
+form input:invalid{
+	border: 1px solid red ;
+}
